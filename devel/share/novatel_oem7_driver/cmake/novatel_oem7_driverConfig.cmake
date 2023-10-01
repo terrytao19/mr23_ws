@@ -1,0 +1,1 @@
+/home/terry/mr23_ws/devel/.private/novatel_oem7_driver/share/novatel_oem7_driver/cmake/novatel_oem7_driverConfig.cmake

@@ -1,0 +1,6 @@
+devel_space: /home/terry/mr23_ws/devel
+install: false
+install_space: /home/terry/mr23_ws/install
+profile: default
+source_space: /home/terry/mr23_ws/src
+workspace: /home/terry/mr23_ws

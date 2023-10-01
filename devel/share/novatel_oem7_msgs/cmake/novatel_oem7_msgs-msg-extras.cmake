@@ -1,0 +1,1 @@
+/home/terry/mr23_ws/devel/.private/novatel_oem7_msgs/share/novatel_oem7_msgs/cmake/novatel_oem7_msgs-msg-extras.cmake

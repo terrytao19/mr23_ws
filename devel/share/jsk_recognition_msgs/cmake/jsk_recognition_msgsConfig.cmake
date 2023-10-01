@@ -1,0 +1,1 @@
+/home/terry/mr23_ws/devel/.private/patchworkpp/share/jsk_recognition_msgs/cmake/jsk_recognition_msgsConfig.cmake

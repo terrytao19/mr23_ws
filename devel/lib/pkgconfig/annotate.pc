@@ -1,0 +1,1 @@
+/home/terry/mr23_ws/devel/.private/annotate/lib/pkgconfig/annotate.pc

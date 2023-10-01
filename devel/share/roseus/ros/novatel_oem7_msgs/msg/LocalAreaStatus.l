@@ -1,0 +1,1 @@
+/home/terry/mr23_ws/devel/.private/novatel_oem7_msgs/share/roseus/ros/novatel_oem7_msgs/msg/LocalAreaStatus.l

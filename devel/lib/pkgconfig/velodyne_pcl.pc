@@ -1,0 +1,1 @@
+/home/terry/mr23_ws/devel/.private/velodyne_pcl/lib/pkgconfig/velodyne_pcl.pc

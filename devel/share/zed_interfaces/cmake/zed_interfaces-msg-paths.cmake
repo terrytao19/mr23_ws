@@ -1,0 +1,1 @@
+/home/terry/mr23_ws/devel/.private/zed_interfaces/share/zed_interfaces/cmake/zed_interfaces-msg-paths.cmake

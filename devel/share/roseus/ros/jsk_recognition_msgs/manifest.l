@@ -1,0 +1,1 @@
+/home/terry/mr23_ws/devel/.private/patchworkpp/share/roseus/ros/jsk_recognition_msgs/manifest.l
