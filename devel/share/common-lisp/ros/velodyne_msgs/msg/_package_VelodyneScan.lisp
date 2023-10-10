@@ -1,1 +1,0 @@
-/home/terry/mr23_ws/devel/.private/velodyne_msgs/share/common-lisp/ros/velodyne_msgs/msg/_package_VelodyneScan.lisp

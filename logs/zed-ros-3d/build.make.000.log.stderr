@@ -1,6 +1,0 @@
-/usr/bin/ld: CMakeFiles/zed-ros-3d-node.dir/src/zed-ros-3d-node.cpp.o: in function `main':
-zed-ros-3d-node.cpp:(.text+0x674): undefined reference to `Yolo::build_engine(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, OptimDim)'
-collect2: error: ld returned 1 exit status
-make[2]: *** [CMakeFiles/zed-ros-3d-node.dir/build.make:120: zed-ros-3d-node] Error 1
-make[1]: *** [CMakeFiles/Makefile2:1618: CMakeFiles/zed-ros-3d-node.dir/all] Error 2
-make: *** [Makefile:146: all] Error 2

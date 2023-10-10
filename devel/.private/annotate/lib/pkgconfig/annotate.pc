@@ -1,8 +1,0 @@
-prefix=/home/terry/mr23_ws/devel/.private/annotate
-
-Name: annotate
-Description: Description of annotate
-Version: 1.0.0
-Cflags: -I/home/terry/mr23_ws/src/annotate/include
-Libs: -L${prefix}/lib 
-Requires: geometry_msgs interactive_markers roscpp rviz tf visualization_msgs

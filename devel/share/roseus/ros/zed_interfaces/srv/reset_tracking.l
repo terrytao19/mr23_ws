@@ -1,1 +1,0 @@
-/home/terry/mr23_ws/devel/.private/zed_interfaces/share/roseus/ros/zed_interfaces/srv/reset_tracking.l

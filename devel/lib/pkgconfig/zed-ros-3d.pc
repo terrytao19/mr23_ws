@@ -1,1 +1,0 @@
-/home/terry/mr23_ws/devel/.private/zed-ros-3d/lib/pkgconfig/zed-ros-3d.pc

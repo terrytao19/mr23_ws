@@ -1,1 +1,0 @@
-/home/terry/mr23_ws/devel/.private/velodyne_driver/lib/pkgconfig/velodyne_driver.pc

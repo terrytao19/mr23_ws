@@ -1,1 +1,0 @@
-/home/terry/mr23_ws/devel/.private/zed-ros-3d/share/zed-ros-3d/cmake/zed-ros-3dConfig.cmake
