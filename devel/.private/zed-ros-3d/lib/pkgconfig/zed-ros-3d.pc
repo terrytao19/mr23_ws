@@ -1,0 +1,8 @@
+prefix=/home/terry/mr23_ws/devel/.private/zed-ros-3d
+
+Name: zed-ros-3d
+Description: Description of zed-ros-3d
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

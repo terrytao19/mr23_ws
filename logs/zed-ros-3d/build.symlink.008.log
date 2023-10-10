@@ -1,0 +1,4 @@
+Symlinking /home/terry/mr23_ws/devel/share/zed-ros-3d/cmake/zed-ros-3dConfig.cmake
+Symlinking /home/terry/mr23_ws/devel/share/zed-ros-3d/cmake/zed-ros-3dConfig-version.cmake
+Symlinking /home/terry/mr23_ws/devel/lib/pkgconfig/zed-ros-3d.pc
+Symlinking /home/terry/mr23_ws/devel/lib/zed-ros-3d/zed-ros-3d-node

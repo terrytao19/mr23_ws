@@ -1,0 +1,163 @@
+[ 66%] [32mBuilding CXX object CMakeFiles/zed_ros_3d_node.dir/src/zed_ros_3d_node.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/zed_ros_3d_node.dir/src/yolo.cpp.o[0m
+[01m[K/home/terry/mr23_ws/src/zed_ros_3d/src/yolo.cpp:[m[K In destructor ‘[01m[KYolo::~Yolo()[m[K’:
+[01m[K/home/terry/mr23_ws/src/zed_ros_3d/src/yolo.cpp:119:26:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid nvinfer1::IExecutionContext::destroy()[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  119 |         context->destroy([01;35m[K)[m[K;
+      |                          [01;35m[K^[m[K
+In file included from [01m[K/usr/include/aarch64-linux-gnu/NvInfer.h:17[m[K,
+                 from [01m[K/home/terry/mr23_ws/src/zed_ros_3d/include/yolo.hpp:4[m[K,
+                 from [01m[K/home/terry/mr23_ws/src/zed_ros_3d/src/yolo.cpp:1[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/NvInferRuntime.h:2371:25:[m[K [01;36m[Knote: [m[Kdeclared here
+ 2371 |     TRT_DEPRECATED void [01;36m[Kdestroy[m[K() noexcept
+      |                         [01;36m[K^~~~~~~[m[K
+[01m[K/home/terry/mr23_ws/src/zed_ros_3d/src/yolo.cpp:120:25:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid nvinfer1::ICudaEngine::destroy()[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  120 |         engine->destroy([01;35m[K)[m[K;
+      |                         [01;35m[K^[m[K
+In file included from [01m[K/usr/include/aarch64-linux-gnu/NvInfer.h:17[m[K,
+                 from [01m[K/home/terry/mr23_ws/src/zed_ros_3d/include/yolo.hpp:4[m[K,
+                 from [01m[K/home/terry/mr23_ws/src/zed_ros_3d/src/yolo.cpp:1[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/NvInferRuntime.h:1609:25:[m[K [01;36m[Knote: [m[Kdeclared here
+ 1609 |     TRT_DEPRECATED void [01;36m[Kdestroy[m[K() noexcept
+      |                         [01;36m[K^~~~~~~[m[K
+[01m[K/home/terry/mr23_ws/src/zed_ros_3d/src/yolo.cpp:121:26:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid nvinfer1::IRuntime::destroy()[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  121 |         runtime->destroy([01;35m[K)[m[K;
+      |                          [01;35m[K^[m[K
+In file included from [01m[K/usr/include/aarch64-linux-gnu/NvInfer.h:17[m[K,
+                 from [01m[K/home/terry/mr23_ws/src/zed_ros_3d/include/yolo.hpp:4[m[K,
+                 from [01m[K/home/terry/mr23_ws/src/zed_ros_3d/src/yolo.cpp:1[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/NvInferRuntime.h:682:25:[m[K [01;36m[Knote: [m[Kdeclared here
+  682 |     TRT_DEPRECATED void [01;36m[Kdestroy[m[K() noexcept
+      |                         [01;36m[K^~~~~~~[m[K
+[01m[K/home/terry/mr23_ws/src/zed_ros_3d/src/yolo.cpp:[m[K In static member function ‘[01m[Kstatic int Yolo::build_engine(std::string, std::string, OptimDim)[m[K’:
+[01m[K/home/terry/mr23_ws/src/zed_ros_3d/src/yolo.cpp:172:39:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid nvinfer1::IBuilder::setMaxBatchSize(int32_t)[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  172 |             builder->setMaxBatchSize(1[01;35m[K)[m[K;
+      |                                       [01;35m[K^[m[K
+In file included from [01m[K/home/terry/mr23_ws/src/zed_ros_3d/include/yolo.hpp:4[m[K,
+                 from [01m[K/home/terry/mr23_ws/src/zed_ros_3d/src/yolo.cpp:1[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/NvInfer.h:9379:25:[m[K [01;36m[Knote: [m[Kdeclared here
+ 9379 |     TRT_DEPRECATED void [01;36m[KsetMaxBatchSize[m[K(int32_t batchSize) noexcept
+      |                         [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/terry/mr23_ws/src/zed_ros_3d/src/yolo.cpp:198:66:[m[K [01;35m[Kwarning: [m[K‘[01m[Knvinfer1::ICudaEngine* nvinfer1::IBuilder::buildEngineWithConfig(nvinfer1::INetworkDefinition&, nvinfer1::IBuilderConfig&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  198 |         engine = builder->buildEngineWithConfig(*network, *config[01;35m[K)[m[K;
+      |                                                                  [01;35m[K^[m[K
+In file included from [01m[K/home/terry/mr23_ws/src/zed_ros_3d/include/yolo.hpp:4[m[K,
+                 from [01m[K/home/terry/mr23_ws/src/zed_ros_3d/src/yolo.cpp:1[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/NvInfer.h:9483:43:[m[K [01;36m[Knote: [m[Kdeclared here
+ 9483 |     TRT_DEPRECATED nvinfer1::ICudaEngine* [01;36m[KbuildEngineWithConfig[m[K(
+      |                                           [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/terry/mr23_ws/src/zed_ros_3d/src/yolo.cpp:212:25:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvirtual void nvonnxparser::IParser::destroy()[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  212 |         parser->destroy([01;35m[K)[m[K;
+      |                         [01;35m[K^[m[K
+In file included from [01m[K/home/terry/mr23_ws/src/zed_ros_3d/src/yolo.cpp:2[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/NvOnnxParser.h:199:33:[m[K [01;36m[Knote: [m[Kdeclared here
+  199 |     TRT_DEPRECATED virtual void [01;36m[Kdestroy[m[K() = 0;
+      |                                 [01;36m[K^~~~~~~[m[K
+[01m[K/home/terry/mr23_ws/src/zed_ros_3d/src/yolo.cpp:213:26:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid nvinfer1::INetworkDefinition::destroy()[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  213 |         network->destroy([01;35m[K)[m[K;
+      |                          [01;35m[K^[m[K
+In file included from [01m[K/home/terry/mr23_ws/src/zed_ros_3d/include/yolo.hpp:4[m[K,
+                 from [01m[K/home/terry/mr23_ws/src/zed_ros_3d/src/yolo.cpp:1[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/NvInfer.h:7015:25:[m[K [01;36m[Knote: [m[Kdeclared here
+ 7015 |     TRT_DEPRECATED void [01;36m[Kdestroy[m[K() noexcept
+      |                         [01;36m[K^~~~~~~[m[K
+[01m[K/home/terry/mr23_ws/src/zed_ros_3d/src/yolo.cpp:214:25:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid nvinfer1::IBuilderConfig::destroy()[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  214 |         config->destroy([01;35m[K)[m[K;
+      |                         [01;35m[K^[m[K
+In file included from [01m[K/home/terry/mr23_ws/src/zed_ros_3d/include/yolo.hpp:4[m[K,
+                 from [01m[K/home/terry/mr23_ws/src/zed_ros_3d/src/yolo.cpp:1[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/NvInfer.h:8950:25:[m[K [01;36m[Knote: [m[Kdeclared here
+ 8950 |     TRT_DEPRECATED void [01;36m[Kdestroy[m[K() noexcept
+      |                         [01;36m[K^~~~~~~[m[K
+[01m[K/home/terry/mr23_ws/src/zed_ros_3d/src/yolo.cpp:215:26:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid nvinfer1::IBuilder::destroy()[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  215 |         builder->destroy([01;35m[K)[m[K;
+      |                          [01;35m[K^[m[K
+In file included from [01m[K/home/terry/mr23_ws/src/zed_ros_3d/include/yolo.hpp:4[m[K,
+                 from [01m[K/home/terry/mr23_ws/src/zed_ros_3d/src/yolo.cpp:1[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/NvInfer.h:9422:25:[m[K [01;36m[Knote: [m[Kdeclared here
+ 9422 |     TRT_DEPRECATED void [01;36m[Kdestroy[m[K() noexcept
+      |                         [01;36m[K^~~~~~~[m[K
+[01m[K/home/terry/mr23_ws/src/zed_ros_3d/src/yolo.cpp:217:25:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid nvinfer1::ICudaEngine::destroy()[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  217 |         engine->destroy([01;35m[K)[m[K;
+      |                         [01;35m[K^[m[K
+In file included from [01m[K/usr/include/aarch64-linux-gnu/NvInfer.h:17[m[K,
+                 from [01m[K/home/terry/mr23_ws/src/zed_ros_3d/include/yolo.hpp:4[m[K,
+                 from [01m[K/home/terry/mr23_ws/src/zed_ros_3d/src/yolo.cpp:1[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/NvInferRuntime.h:1609:25:[m[K [01;36m[Knote: [m[Kdeclared here
+ 1609 |     TRT_DEPRECATED void [01;36m[Kdestroy[m[K() noexcept
+      |                         [01;36m[K^~~~~~~[m[K
+[01m[K/home/terry/mr23_ws/src/zed_ros_3d/src/yolo.cpp:[m[K In member function ‘[01m[Kint Yolo::init(std::string)[m[K’:
+[01m[K/home/terry/mr23_ws/src/zed_ros_3d/src/yolo.cpp:253:31:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint32_t nvinfer1::ICudaEngine::getNbBindings() const[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  253 |     if (engine->getNbBindings([01;35m[K)[m[K != 2) return 1;
+      |                               [01;35m[K^[m[K
+In file included from [01m[K/usr/include/aarch64-linux-gnu/NvInfer.h:17[m[K,
+                 from [01m[K/home/terry/mr23_ws/src/zed_ros_3d/include/yolo.hpp:4[m[K,
+                 from [01m[K/home/terry/mr23_ws/src/zed_ros_3d/src/yolo.cpp:1[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/NvInferRuntime.h:1399:28:[m[K [01;36m[Knote: [m[Kdeclared here
+ 1399 |     TRT_DEPRECATED int32_t [01;36m[KgetNbBindings[m[K() const noexcept
+      |                            [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/terry/mr23_ws/src/zed_ros_3d/src/yolo.cpp:256:48:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint32_t nvinfer1::ICudaEngine::getNbBindings() const[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  256 |     const int bindings = engine->getNbBindings([01;35m[K)[m[K;
+      |                                                [01;35m[K^[m[K
+In file included from [01m[K/usr/include/aarch64-linux-gnu/NvInfer.h:17[m[K,
+                 from [01m[K/home/terry/mr23_ws/src/zed_ros_3d/include/yolo.hpp:4[m[K,
+                 from [01m[K/home/terry/mr23_ws/src/zed_ros_3d/src/yolo.cpp:1[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/NvInferRuntime.h:1399:28:[m[K [01;36m[Knote: [m[Kdeclared here
+ 1399 |     TRT_DEPRECATED int32_t [01;36m[KgetNbBindings[m[K() const noexcept
+      |                            [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/terry/mr23_ws/src/zed_ros_3d/src/yolo.cpp:258:37:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool nvinfer1::ICudaEngine::bindingIsInput(int32_t) const[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  258 |         if (engine->bindingIsInput(i[01;35m[K)[m[K) {
+      |                                     [01;35m[K^[m[K
+In file included from [01m[K/usr/include/aarch64-linux-gnu/NvInfer.h:17[m[K,
+                 from [01m[K/home/terry/mr23_ws/src/zed_ros_3d/include/yolo.hpp:4[m[K,
+                 from [01m[K/home/terry/mr23_ws/src/zed_ros_3d/src/yolo.cpp:1[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/NvInferRuntime.h:1465:25:[m[K [01;36m[Knote: [m[Kdeclared here
+ 1465 |     TRT_DEPRECATED bool [01;36m[KbindingIsInput[m[K(int32_t bindingIndex) const noexcept
+      |                         [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/terry/mr23_ws/src/zed_ros_3d/src/yolo.cpp:259:58:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst char* nvinfer1::ICudaEngine::getBindingName(int32_t) const[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  259 |             input_binding_name = engine->getBindingName(i[01;35m[K)[m[K;
+      |                                                          [01;35m[K^[m[K
+In file included from [01m[K/usr/include/aarch64-linux-gnu/NvInfer.h:17[m[K,
+                 from [01m[K/home/terry/mr23_ws/src/zed_ros_3d/include/yolo.hpp:4[m[K,
+                 from [01m[K/home/terry/mr23_ws/src/zed_ros_3d/src/yolo.cpp:1[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/NvInferRuntime.h:1450:32:[m[K [01;36m[Knote: [m[Kdeclared here
+ 1450 |     TRT_DEPRECATED char const* [01;36m[KgetBindingName[m[K(int32_t bindingIndex) const noexcept
+      |                                [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/terry/mr23_ws/src/zed_ros_3d/src/yolo.cpp:260:59:[m[K [01;35m[Kwarning: [m[K‘[01m[Knvinfer1::Dims nvinfer1::ICudaEngine::getBindingDimensions(int32_t) const[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  260 |             Dims bind_dim = engine->getBindingDimensions(i[01;35m[K)[m[K;
+      |                                                           [01;35m[K^[m[K
+In file included from [01m[K/usr/include/aarch64-linux-gnu/NvInfer.h:17[m[K,
+                 from [01m[K/home/terry/mr23_ws/src/zed_ros_3d/include/yolo.hpp:4[m[K,
+                 from [01m[K/home/terry/mr23_ws/src/zed_ros_3d/src/yolo.cpp:1[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/NvInferRuntime.h:1492:25:[m[K [01;36m[Knote: [m[Kdeclared here
+ 1492 |     TRT_DEPRECATED Dims [01;36m[KgetBindingDimensions[m[K(int32_t bindingIndex) const noexcept
+      |                         [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/terry/mr23_ws/src/zed_ros_3d/src/yolo.cpp:267:51:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst char* nvinfer1::ICudaEngine::getBindingName(int32_t) const[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  267 |             output_name = engine->getBindingName(i[01;35m[K)[m[K;
+      |                                                   [01;35m[K^[m[K
+In file included from [01m[K/usr/include/aarch64-linux-gnu/NvInfer.h:17[m[K,
+                 from [01m[K/home/terry/mr23_ws/src/zed_ros_3d/include/yolo.hpp:4[m[K,
+                 from [01m[K/home/terry/mr23_ws/src/zed_ros_3d/src/yolo.cpp:1[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/NvInferRuntime.h:1450:32:[m[K [01;36m[Knote: [m[Kdeclared here
+ 1450 |     TRT_DEPRECATED char const* [01;36m[KgetBindingName[m[K(int32_t bindingIndex) const noexcept
+      |                                [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/terry/mr23_ws/src/zed_ros_3d/src/yolo.cpp:270:59:[m[K [01;35m[Kwarning: [m[K‘[01m[Knvinfer1::Dims nvinfer1::ICudaEngine::getBindingDimensions(int32_t) const[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  270 |             Dims bind_dim = engine->getBindingDimensions(i[01;35m[K)[m[K;
+      |                                                           [01;35m[K^[m[K
+In file included from [01m[K/usr/include/aarch64-linux-gnu/NvInfer.h:17[m[K,
+                 from [01m[K/home/terry/mr23_ws/src/zed_ros_3d/include/yolo.hpp:4[m[K,
+                 from [01m[K/home/terry/mr23_ws/src/zed_ros_3d/src/yolo.cpp:1[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/NvInferRuntime.h:1492:25:[m[K [01;36m[Knote: [m[Kdeclared here
+ 1492 |     TRT_DEPRECATED Dims [01;36m[KgetBindingDimensions[m[K(int32_t bindingIndex) const noexcept
+      |                         [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/terry/mr23_ws/src/zed_ros_3d/src/yolo.cpp:[m[K In member function ‘[01m[Kstd::vector<BBoxInfo> Yolo::run(sl::Mat, int, int, float)[m[K’:
+[01m[K/home/terry/mr23_ws/src/zed_ros_3d/src/yolo.cpp:345:62:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool nvinfer1::IExecutionContext::enqueueV2(void* const*, cudaStream_t, CUevent_st**)[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  345 |     context->enqueueV2(&d_buffers_nvinfer[0], stream, nullptr[01;35m[K)[m[K;
+      |                                                              [01;35m[K^[m[K
+In file included from [01m[K/usr/include/aarch64-linux-gnu/NvInfer.h:17[m[K,
+                 from [01m[K/home/terry/mr23_ws/src/zed_ros_3d/include/yolo.hpp:4[m[K,
+                 from [01m[K/home/terry/mr23_ws/src/zed_ros_3d/src/yolo.cpp:1[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/NvInferRuntime.h:2814:25:[m[K [01;36m[Knote: [m[Kdeclared here
+ 2814 |     TRT_DEPRECATED bool [01;36m[KenqueueV2[m[K(void* const* bindings, cudaStream_t stream, cudaEvent_t* inputConsumed) noexcept
+      |                         [01;36m[K^~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable /home/terry/mr23_ws/devel/.private/zed_ros_3d/lib/zed_ros_3d/zed_ros_3d_node[0m
+[100%] Built target zed_ros_3d_node
