@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "/home/terry/mr23_ws/devel/.private/patchworkpp/lib/patchworkpp/demo"
   "/home/terry/mr23_ws/devel/.private/patchworkpp/lib/patchworkpp/demo.pdb"
   "CMakeFiles/demo.dir/src/demo.cpp.o"
+  "CMakeFiles/demo.dir/src/demo.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

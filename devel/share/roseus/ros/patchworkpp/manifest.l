@@ -1,1 +1,0 @@
-/home/terry/mr23_ws/devel/.private/patchworkpp/share/roseus/ros/patchworkpp/manifest.l

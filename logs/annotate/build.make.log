@@ -1,3 +1,10 @@
 [ 12%] [34m[1mAutomatic MOC for target annotate[0m
 [ 12%] Built target annotate_autogen
+[ 25%] [32mBuilding CXX object CMakeFiles/annotate.dir/annotate_autogen/mocs_compilation.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/annotate.dir/src/annotate_display.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/annotate.dir/src/annotate_tool.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/annotate.dir/src/annotation_marker.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/annotate.dir/src/file_dialog_property.cpp.o[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/annotate.dir/src/shortcut_property.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library /home/terry/mr23_ws/devel/.private/annotate/lib/libannotate.so[0m
 [100%] Built target annotate

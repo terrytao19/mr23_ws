@@ -18,4 +18,6 @@
 	path = src/novatel_oem7_driver
 	url = https://github.com/novatel/novatel_oem7_driver.git
 
-
+[submodule "zed_ros_3d"]
+	path = src/zed_ros_3d
+	url = https://github.com/terrytao19/zed_ros_3d.git

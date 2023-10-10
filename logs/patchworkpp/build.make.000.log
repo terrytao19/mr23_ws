@@ -1,77 +1,31 @@
-[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
-[35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
-[35m[1mScanning dependencies of target sensor_msgs_generate_messages_cpp[0m
-[35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
-[35m[1mScanning dependencies of target sensor_msgs_generate_messages_py[0m
-[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
-[35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
-[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
-[  0%] Built target std_msgs_generate_messages_cpp
-[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
-[35m[1mScanning dependencies of target sensor_msgs_generate_messages_lisp[0m
-[  0%] Built target geometry_msgs_generate_messages_cpp
-[  0%] Built target sensor_msgs_generate_messages_cpp
-[35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
-[35m[1mScanning dependencies of target sensor_msgs_generate_messages_nodejs[0m
+[  0%] Built target geometry_msgs_generate_messages_py
 [  0%] Built target std_msgs_generate_messages_py
 [  0%] Built target sensor_msgs_generate_messages_py
-[  0%] Built target geometry_msgs_generate_messages_py
-[  0%] Built target sensor_msgs_generate_messages_nodejs
-[35m[1mScanning dependencies of target _jsk_recognition_msgs_generate_messages_check_deps_PolygonArray[0m
-[  0%] Built target std_msgs_generate_messages_lisp
-[  0%] Built target geometry_msgs_generate_messages_nodejs
-[  0%] Built target geometry_msgs_generate_messages_lisp
-[  0%] Built target std_msgs_generate_messages_nodejs
-[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
-[  0%] Built target sensor_msgs_generate_messages_lisp
-[35m[1mScanning dependencies of target patchworkpp_generate_messages_cpp[0m
-[35m[1mScanning dependencies of target sensor_msgs_generate_messages_eus[0m
-[35m[1mScanning dependencies of target patchworkpp_generate_messages_py[0m
-[35m[1mScanning dependencies of target patchworkpp_generate_messages_lisp[0m
-[  0%] Built target std_msgs_generate_messages_eus
-[35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
-[  0%] Built target patchworkpp_generate_messages_cpp
-[35m[1mScanning dependencies of target patchworkpp_generate_messages_nodejs[0m
-[  0%] Built target sensor_msgs_generate_messages_eus
-[  0%] Built target patchworkpp_generate_messages_py
-[  0%] Built target patchworkpp_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_cpp
 [  0%] Built target geometry_msgs_generate_messages_eus
-[  0%] Built target patchworkpp_generate_messages_nodejs
-[35m[1mScanning dependencies of target demo[0m
-[35m[1mScanning dependencies of target video[0m
-[35m[1mScanning dependencies of target offline_kitti[0m
-[35m[1mScanning dependencies of target patchworkpp_generate_messages_eus[0m
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target patchworkpp_generate_messages_py
+[  0%] Built target patchworkpp_generate_messages_cpp
 [  0%] Built target _jsk_recognition_msgs_generate_messages_check_deps_PolygonArray
 [  7%] [34m[1mGenerating EusLisp manifest code for patchworkpp[0m
-[35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_cpp[0m
-[35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_nodejs[0m
-[35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_py[0m
-[35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_lisp[0m
-[35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_eus[0m
-[ 21%] [34m[1mGenerating Javascript code from jsk_recognition_msgs/PolygonArray.msg[0m
-[ 21%] [34m[1mGenerating C++ code from jsk_recognition_msgs/PolygonArray.msg[0m
-[ 28%] [34m[1mGenerating EusLisp code from jsk_recognition_msgs/PolygonArray.msg[0m
-[ 42%] [34m[1mGenerating EusLisp manifest code for jsk_recognition_msgs[0m
-[ 42%] [34m[1mGenerating Python from MSG jsk_recognition_msgs/PolygonArray[0m
-[ 50%] [34m[1mGenerating Lisp code from jsk_recognition_msgs/PolygonArray.msg[0m
-[ 50%] Built target jsk_recognition_msgs_generate_messages_nodejs
-[ 50%] Built target jsk_recognition_msgs_generate_messages_lisp
-[ 64%] [32mBuilding CXX object CMakeFiles/demo.dir/src/demo.cpp.o[0m
-[ 64%] [32mBuilding CXX object CMakeFiles/offline_kitti.dir/src/offline_kitti.cpp.o[0m
-[ 71%] [32mBuilding CXX object CMakeFiles/video.dir/src/video.cpp.o[0m
-[ 71%] Built target jsk_recognition_msgs_generate_messages_cpp
-[ 78%] [34m[1mGenerating Python msg __init__.py for jsk_recognition_msgs[0m
-[ 78%] Built target jsk_recognition_msgs_generate_messages_py
-[33m[WARNING] jsk_recognition_msgs is not found in workspace[0m
-[ 78%] Built target jsk_recognition_msgs_generate_messages_eus
-[35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages[0m
-[ 78%] Built target jsk_recognition_msgs_generate_messages
-[ 78%] Built target patchworkpp_generate_messages_eus
-[35m[1mScanning dependencies of target patchworkpp_generate_messages[0m
-[ 78%] Built target patchworkpp_generate_messages
-[ 85%] [32m[1mLinking CXX executable /home/terry/mr23_ws/devel/.private/patchworkpp/lib/patchworkpp/video[0m
-[ 92%] [32m[1mLinking CXX executable /home/terry/mr23_ws/devel/.private/patchworkpp/lib/patchworkpp/offline_kitti[0m
-[100%] [32m[1mLinking CXX executable /home/terry/mr23_ws/devel/.private/patchworkpp/lib/patchworkpp/demo[0m
-[100%] Built target video
-[100%] Built target demo
-[100%] Built target offline_kitti
+[  7%] Built target patchworkpp_generate_messages_lisp
+[  7%] Built target patchworkpp_generate_messages_nodejs
+[ 14%] [32mBuilding CXX object CMakeFiles/offline_kitti.dir/src/offline_kitti.cpp.o[0m
+[ 14%] Built target patchworkpp_generate_messages_eus
+In file included from [01m[K/home/terry/mr23_ws/src/patchwork-plusplus-ros/src/offline_kitti.cpp:10[m[K:
+[01m[K/home/terry/mr23_ws/src/patchwork-plusplus-ros/include/patchworkpp/patchworkpp.hpp:16:10:[m[K [01;31m[Kfatal error: [m[Kjsk_recognition_msgs/PolygonArray.h: No such file or directory
+   16 | #include [01;31m[K<jsk_recognition_msgs/PolygonArray.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/offline_kitti.dir/build.make:76: CMakeFiles/offline_kitti.dir/src/offline_kitti.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:2068: CMakeFiles/offline_kitti.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

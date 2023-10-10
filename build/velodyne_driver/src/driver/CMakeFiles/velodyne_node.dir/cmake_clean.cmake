@@ -2,7 +2,9 @@ file(REMOVE_RECURSE
   "/home/terry/mr23_ws/devel/.private/velodyne_driver/lib/velodyne_driver/velodyne_node"
   "/home/terry/mr23_ws/devel/.private/velodyne_driver/lib/velodyne_driver/velodyne_node.pdb"
   "CMakeFiles/velodyne_node.dir/driver.cc.o"
+  "CMakeFiles/velodyne_node.dir/driver.cc.o.d"
   "CMakeFiles/velodyne_node.dir/velodyne_node.cc.o"
+  "CMakeFiles/velodyne_node.dir/velodyne_node.cc.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,31 +1,31 @@
-[  0%] Built target sensor_msgs_generate_messages_py
-[  0%] Built target std_msgs_generate_messages_cpp
-[  0%] Built target sensor_msgs_generate_messages_cpp
-[  0%] Built target geometry_msgs_generate_messages_cpp
 [  0%] Built target geometry_msgs_generate_messages_py
 [  0%] Built target std_msgs_generate_messages_py
-[  0%] Built target std_msgs_generate_messages_nodejs
-[  0%] Built target sensor_msgs_generate_messages_nodejs
-[  0%] Built target geometry_msgs_generate_messages_nodejs
-[  0%] Built target geometry_msgs_generate_messages_lisp
-[  0%] Built target std_msgs_generate_messages_lisp
-[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_cpp
 [  0%] Built target geometry_msgs_generate_messages_eus
 [  0%] Built target std_msgs_generate_messages_eus
 [  0%] Built target sensor_msgs_generate_messages_eus
-[  0%] Built target patchworkpp_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_nodejs
 [  0%] Built target patchworkpp_generate_messages_py
-[  0%] Built target patchworkpp_generate_messages_nodejs
-[  0%] Built target patchworkpp_generate_messages_lisp
-[  7%] Built target _jsk_recognition_msgs_generate_messages_check_deps_PolygonArray
-[  7%] Built target patchworkpp_generate_messages_eus
-[ 21%] Built target video
-[ 35%] Built target demo
-[ 35%] Built target patchworkpp_generate_messages
-[ 50%] Built target offline_kitti
-[ 57%] Built target jsk_recognition_msgs_generate_messages_cpp
-[ 71%] Built target jsk_recognition_msgs_generate_messages_py
-[ 78%] Built target jsk_recognition_msgs_generate_messages_nodejs
-[ 92%] Built target jsk_recognition_msgs_generate_messages_eus
-[100%] Built target jsk_recognition_msgs_generate_messages_lisp
-[100%] Built target jsk_recognition_msgs_generate_messages
+[  0%] Built target patchworkpp_generate_messages_cpp
+[  0%] Built target _jsk_recognition_msgs_generate_messages_check_deps_PolygonArray
+[  7%] [34m[1mGenerating EusLisp manifest code for patchworkpp[0m
+[  7%] Built target patchworkpp_generate_messages_lisp
+[  7%] Built target patchworkpp_generate_messages_nodejs
+[ 14%] [32mBuilding CXX object CMakeFiles/offline_kitti.dir/src/offline_kitti.cpp.o[0m
+[ 14%] Built target patchworkpp_generate_messages_eus
+In file included from [01m[K/home/terry/mr23_ws/src/patchwork-plusplus-ros/src/offline_kitti.cpp:10[m[K:
+[01m[K/home/terry/mr23_ws/src/patchwork-plusplus-ros/include/patchworkpp/patchworkpp.hpp:16:10:[m[K [01;31m[Kfatal error: [m[Kjsk_recognition_msgs/PolygonArray.h: No such file or directory
+   16 | #include [01;31m[K<jsk_recognition_msgs/PolygonArray.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/offline_kitti.dir/build.make:76: CMakeFiles/offline_kitti.dir/src/offline_kitti.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:2068: CMakeFiles/offline_kitti.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

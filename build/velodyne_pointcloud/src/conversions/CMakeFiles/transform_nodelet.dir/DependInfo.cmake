@@ -1,40 +1,19 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
-  "CXX"
-  )
-# The set of files for implicit dependencies of each language:
-set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/terry/mr23_ws/src/velodyne/velodyne_pointcloud/src/conversions/transform.cc" "/home/terry/mr23_ws/build/velodyne_pointcloud/src/conversions/CMakeFiles/transform_nodelet.dir/transform.cc.o"
-  "/home/terry/mr23_ws/src/velodyne/velodyne_pointcloud/src/conversions/transform_nodelet.cc" "/home/terry/mr23_ws/build/velodyne_pointcloud/src/conversions/CMakeFiles/transform_nodelet.dir/transform_nodelet.cc.o"
-  )
-set(CMAKE_CXX_COMPILER_ID "GNU")
-
-# Preprocessor definitions for this target.
-set(CMAKE_TARGET_DEFINITIONS_CXX
-  "HAVE_NEW_YAMLCPP"
-  "ROSCONSOLE_BACKEND_LOG4CXX"
-  "ROS_BUILD_SHARED_LIBS=1"
-  "ROS_PACKAGE_NAME=\"velodyne_pointcloud\""
-  "transform_nodelet_EXPORTS"
   )
 
-# The include file search paths:
-set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/terry/mr23_ws/devel/.private/velodyne_pointcloud/include"
-  "/home/terry/mr23_ws/src/velodyne/velodyne_pointcloud/include"
-  "/home/terry/mr23_ws/devel/.private/velodyne_driver/include"
-  "/home/terry/mr23_ws/devel/.private/velodyne_msgs/include"
-  "/home/terry/mr23_ws/src/velodyne/velodyne_driver/include"
-  "/opt/ros/noetic/include"
-  "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
-  "/cmake/cfgbuild.cmake"
-  "/usr/include/eigen3"
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/terry/mr23_ws/src/velodyne/velodyne_pointcloud/src/conversions/transform.cc" "src/conversions/CMakeFiles/transform_nodelet.dir/transform.cc.o" "gcc" "src/conversions/CMakeFiles/transform_nodelet.dir/transform.cc.o.d"
+  "/home/terry/mr23_ws/src/velodyne/velodyne_pointcloud/src/conversions/transform_nodelet.cc" "src/conversions/CMakeFiles/transform_nodelet.dir/transform_nodelet.cc.o" "gcc" "src/conversions/CMakeFiles/transform_nodelet.dir/transform_nodelet.cc.o.d"
   )
 
-# Targets to which this target links.
-set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/terry/mr23_ws/build/velodyne_pointcloud/src/conversions/CMakeFiles/data_containers.dir/DependInfo.cmake"
-  "/home/terry/mr23_ws/build/velodyne_pointcloud/src/lib/CMakeFiles/velodyne_rawdata.dir/DependInfo.cmake"
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
   )
 
 # Fortran module output directory.

@@ -1,1 +1,0 @@
-/home/terry/mr23_ws/devel/.private/zed_wrapper/share/zed_wrapper/cmake/zed_wrapperConfig-version.cmake

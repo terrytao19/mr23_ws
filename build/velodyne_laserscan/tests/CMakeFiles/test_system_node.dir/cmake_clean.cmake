@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "/home/terry/mr23_ws/devel/.private/velodyne_laserscan/lib/velodyne_laserscan/test_system_node"
   "/home/terry/mr23_ws/devel/.private/velodyne_laserscan/lib/velodyne_laserscan/test_system_node.pdb"
   "CMakeFiles/test_system_node.dir/system.cpp.o"
+  "CMakeFiles/test_system_node.dir/system.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.
