@@ -21,3 +21,11 @@
 [submodule "zed_ros_3d"]
 	path = src/zed_ros_3d
 	url = https://github.com/terrytao19/zed_ros_3d.git
+
+[submodule "gps_umd"]
+	path = src/gps_umd
+	url = https://github.com/swri-robotics/gps_umd.git
+
+[submodule "nmea_msgs"]
+	path = src/nmea_msgs
+	url = https://github.com/ros-drivers/nmea_msgs.git
